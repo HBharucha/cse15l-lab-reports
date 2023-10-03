@@ -4,7 +4,7 @@
 
 **Bold Testing**
 
-[Link](random.md)
+[Random File](random.md)
 
 ![Image](hasbulla.jpeg)
 

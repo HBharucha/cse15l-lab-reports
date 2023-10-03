@@ -51,5 +51,5 @@
 3. Example of using the command with a path to a file as an argument.
    ![Image](catFile.png)
    * The working directory was lecture1/messages/hi.txt
-   * Nothing printed because the cd command is for changing the current directory so you need to provide a path
-   * The output is not an error because the terminal did not break and it works fine after
+   * The text in the hi.txt file printed because the cat command prints contents of files
+   * The output is not an error 

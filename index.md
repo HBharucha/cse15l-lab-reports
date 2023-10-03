@@ -4,4 +4,4 @@
 
 **Bold Testing**
 
-![Image](http://url/hasbulla.jpeg)
+![Image](hasbulla.jpeg)

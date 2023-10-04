@@ -4,12 +4,12 @@
 
 1. Example of using the command with no arguments.
    ![Image](cdNoPath.png)
-   * The working directory was the root directory
+   * The working directory was the home directory
    * Nothing printed because the cd command is for changing the current directory so you need to provide a path
    * The output is not an error because the terminal did not break and it works fine after
 3. Example of using the command with a path to a directory as an argument.
   ![Image](cdDirectory.png)
-   * The working directory was the root directory
+   * The working directory was the home directory
    * Nothing printed because the command does not give outputs and instead it changed the current directory to the directory I provided in the path
    * The output is not an error because the terminal did not break and it works fine after
 4. Example of using the command with a path to a file as an argument.
@@ -40,7 +40,7 @@
 
 1. Example of using the command with no arguments.
    ![Image](catNoPath.png)
-   * The working directory was the root directory
+   * The working directory was the home directory
    * Nothing printed because the cat command expects a file to print the contents of
    * The output is an error because after running cat without any arguments the terminal breaks and you cannot run any other commands.
 2. Example of using the command with a path to a directory as an argument.

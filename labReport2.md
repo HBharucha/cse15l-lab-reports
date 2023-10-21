@@ -1,6 +1,7 @@
 # Lab Report 2
 
-## String Server Code
+## Part 1
+### String Server Code
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -42,7 +43,7 @@ class StringServer {
 }
 ```
 
-## Screenshots 
+### Screenshots 
 ![Image](addHello.png)
 * Only the handle request method is called 
 * The handle request method requests an argument for a url of type URI. `message` and `count` are relevant fields in the class. `message` has a value of `" "`, `count` has a value of `0`, and `uri` does not have a value because it just created.
@@ -52,3 +53,11 @@ class StringServer {
 * Only the handle request method is called 
 * The handle request method requests an argument for a url of type URI. `message` and `count` are relevant fields in the class. `message` has a value of `"1. Hello"`, `count` has a value of `1`, and `uri` does not have a value because it just created.
 * This specific request will increase `count` by 1 making it have a value of 2. `message` will add on the new message to the end of the string along with the count so it will have a value of `"1. Hello\n 2. How are you\n"`. `uri` is given the value of the new URL that needs to be handled. 
+
+## Part 2
+![Image](privateKey.png)
+![Image](publicKey.png)
+![Image](noPasswordLogin.png)
+
+## Part 3
+I learned how websites handle string requests using a string handler. I understand now that the string handler takes in a url and parses it to handle the queries and depending on the values of the queries it changes the web page to correctly reflect the new path. 

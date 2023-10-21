@@ -42,14 +42,14 @@
    ![Image](catNoPath.png)
    * The working directory was the home directory
    * Nothing printed because the cat command expects a file to print the contents of
-   * The output is an error because after running `cat` without any arguments the terminal breaks and you cannot run any other commands.
+   * The output is an error because after running `cat` without any arguments the terminal hangs and just repeats backs what the user types in.
 2. Example of using the command with a path to a directory as an argument.
    ![Image](catDirectory.png)
-   * The working directory was lecture1/messages
+   * The working directory was the home directory.
    * The output states an error about the path not being a file because the cat command prints contents of files
    * The output is an error for the path being a directory
 3. Example of using the command with a path to a file as an argument.
    ![Image](catFile.png)
-   * The working directory was lecture1/messages/hi.txt
+   * The working directory was the home directory
    * The text in the hi.txt file printed because the `cat` command prints contents of files
    * The output is not an error 

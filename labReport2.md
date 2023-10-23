@@ -55,8 +55,12 @@ class StringServer {
 * This specific request will increase `count` by 1 making it have a value of 2. `message` will add on the new message to the end of the string along with the count so it will have a value of `"1. Hello\n 2. How are you\n"`. `uri` is given the value of the new URL that needs to be handled. 
 
 ## Part 2
-![Image](privateSSH.png)
-![Image](publicSSH.png)
+
+* Private key path
+    ![Image](privateSSH.png)
+* Public key path
+    ![Image](publicSSH.png)
+
 ![Image](noPasswordLogin.png)
 
 ## Part 3

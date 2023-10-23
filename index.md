@@ -4,7 +4,8 @@
 
 **Bold Testing**
 
-[Random File](random.md)
+* [Lab Report 1](lab1report.md)
+* [Lab Report 2](labReport2.md)
 
 ![Image](hasbulla.jpeg)
 

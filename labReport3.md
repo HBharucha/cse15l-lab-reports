@@ -50,13 +50,14 @@
   ## Part 2 - Researching Commands
   ### Interesting grep command-line options
   1. -i option
-      * `grep -i "science" technical/plos/pmed.0020281.txt `
-      * `D.C., on May 15th, 2005, at the invitation and support of the Public Library of Science and`
+      * Command: `grep -i "science" technical/plos/pmed.0020281.txt `
+      * Output: `D.C., on May 15th, 2005, at the invitation and support of the Public Library of Science and`
       * The -i option performs a case-insensitive search on the file provided.
         This is useful because sometimes you want all instances of a word in a file whether or not it has variations in capitalization.
   2. -r option
-     * `grep -r "biotech" technical/biomed`
-     * ```
+     * Command: `grep -r "biotech" technical/biomed`
+     * Output:
+       ```
        technical/biomed/1472-6750-1-13.txt:        biology and biotechnology applications. Most recently, the
         technical/biomed/1471-2407-2-11.txt:        immunology and biotechnology, great progress has been made
         technical/biomed/1472-6750-2-21.txt:        a number of important biotechnology applications, including
@@ -68,13 +69,14 @@
        This is useful because instead of manually inputting every file inside a directory
        you can search through the whole directory with one line.
   4. -n option
-     * `grep -n "biotech" technical/biomed/1472-6793-1-6.txt`
-     * `30:        biotechnology community. The advantages of the ECG`
+     * Command: `grep -n "biotech" technical/biomed/1472-6793-1-6.txt`
+     * Output: `30:        biotechnology community. The advantages of the ECG`
      * The -n option provides the line numbers for each matching line in the given file.
        This is useful to quickly know exactly where the matching line in the file is.
   6. -A option
-     * `grep -A 2 "biotech" technical/biomed/1472-6793-1-6.txt`
-     * ```
+     * Command: `grep -A 2 "biotech" technical/biomed/1472-6793-1-6.txt`
+     * Output:
+       ```
        biotechnology community. The advantages of the ECG
         recording and analyses paradigm we developed are clear,
         given the high cost of breeding, housing, and transporting

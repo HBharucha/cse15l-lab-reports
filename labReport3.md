@@ -50,7 +50,7 @@
   ## Part 2 - Researching Commands
   ### Interesting grep command-line options
   1. -i option
-      * Command: `grep -i "science" technical/plos/pmed.0020281.txt `
+      * Command: `grep -i "science" technical/plos/pmed.0020281.txt`
       * Output: `D.C., on May 15th, 2005, at the invitation and support of the Public Library of Science and`
       * The -i option performs a case-insensitive search on the file provided.
         This is useful because sometimes you want all instances of a word in a file whether or not it has variations in capitalization.

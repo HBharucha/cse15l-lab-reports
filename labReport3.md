@@ -49,12 +49,12 @@
 
   ## Part 2 - Researching Commands
   ### Interesting grep command-line options
-  1. -i option
+  1. `-i` option
       * Command: `grep -i "science" technical/plos/pmed.0020281.txt`
       * Output: `D.C., on May 15th, 2005, at the invitation and support of the Public Library of Science and`
-      * The -i option performs a case-insensitive search on the file provided.
+      * The `-i` option performs a case-insensitive search on the file provided.
         This is useful because sometimes you want all instances of a word in a file whether or not it has variations in capitalization.
-  2. -r option
+  2. `-r` option
      * Command: `grep -r "biotech" technical/biomed`
      * Output:
        ```
@@ -65,15 +65,15 @@
         technical/biomed/1471-2164-4-6.txt:        http://www.cstl.nist.gov/biotech/strbase. Non-integer
         technical/biomed/1471-2164-4-6.txt:        http://www.cstl.nist.gov/biotech/strbase/fbicore.htm.
        ```
-     * The -r option performs a recursive search on every file in a given directory.
+     * The `-r` option performs a recursive search on every file in a given directory.
        This is useful because instead of manually inputting every file inside a directory
        you can search through the whole directory with one line.
-  4. -n option
+  4. `-n` option
      * Command: `grep -n "biotech" technical/biomed/1472-6793-1-6.txt`
      * Output: `30:        biotechnology community. The advantages of the ECG`
-     * The -n option provides the line numbers for each matching line in the given file.
+     * The `-n` option provides the line numbers for each matching line in the given file.
        This is useful to quickly know exactly where the matching line in the file is.
-  6. -A option
+  6. `-A` option
      * Command: `grep -A 2 "biotech" technical/biomed/1472-6793-1-6.txt`
      * Output:
        ```
@@ -81,7 +81,7 @@
         recording and analyses paradigm we developed are clear,
         given the high cost of breeding, housing, and transporting
        ```
-     * The -A option provides lines after the matching line, which in this case
+     * The `-A` option provides lines after the matching line, which in this case
        is the 2 lines after the matching line. This is useful for getting more context
        about the matching line.
  

@@ -7,6 +7,7 @@
 * [Lab Report 1](lab1report.md)
 * [Lab Report 2](labReport2.md)
 * [Lab Report 3](labReport3.md)
+* [Lab Report 4](labReport4.md)
 
 ![Image](hasbulla.jpeg)
 
